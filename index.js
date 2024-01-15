@@ -11,7 +11,7 @@ const port = 3000;
 const connectDB = async () => {
   try {
     const con = await mongoose.connect(
-      "mongodb+srv://dheeraj:dheeraj@notemakingapp.yiqxfoh.mongodb.net/?retryWrites=true&w=majority"
+      "add connection string here"
     );
 
     console.log(`MongoDB connected : ${con.connection.host}`);
